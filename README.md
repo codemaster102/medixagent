@@ -19,7 +19,9 @@ Usage
 1. Open the chatbot directory in the terminal:
 
 ```cd ai-chatbot```
+
 2. Run the chatbot:
+
 ```python chatbot.py```
 
 The chatbot will open in a new window. You can start a conversation by typing in the text field at the bottom of the window and pressing enter.
