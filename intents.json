@@ -1,0 +1,173 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi",
+          "Hey",
+          "How are you",
+          "Is anyone there?",
+          "Hello",
+          "Good day"
+        ],
+        "responses": [
+          "Hey :-)",
+          "Hello, thanks for visiting",
+          "Hi there, what can I do for you?",
+          "Hi there, how can I help?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye"],
+        "responses": [
+          "See you later, thanks for visiting",
+          "Have a nice day",
+          "Bye! Come back again soon."
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+        "tag": "esm",
+        "patterns": [
+          "Scene survey",
+          "Primary survey",
+          "Rapid body survey",
+          "Secondary survey",
+          "Emergency scene management",
+          "Ongoing casualty care"
+        ],
+        "responses": [
+          "Emergency Scene Management includes the scene survey, primary survey, secondary survey, ongoing casualty care, multiple casualty management (triage), lifting and moving, and extrication. The scene survey includes assessing the hazard and finding out the history of injury, number of casualties and mechanism of injury, as well as identifying oneself as a first-aider and asking for consent. The primary survey involves assessing the ABC (airway, breathing, circulation) and the secondary survey involves providing first aid for found injuries and gathering a history, symptoms, allergies, medications, past and present medical history, last meal and events leading up to the injury, and vital signs. (https://docs.google.com/document/d/1_pmPpeHOtWUlTIqwxrSn_OL5wiNPASHz7fm9wUHQRVc/edit?usp=sharing)",
+          "This is from Chapter 2. The scene survey is 1-2 mins. long and assesses the situation. The primary survey is to check ABC's. Rapid body survey is to perform first aid on life-threatening injuries. Then, the secondary survey is to gather information about the casualty. Fianlly, ongoing casualty care is being responsible for the casualty after first aid and waiting for medical aid. (https://docs.google.com/document/d/1_pmPpeHOtWUlTIqwxrSn_OL5wiNPASHz7fm9wUHQRVc/edit?usp=sharing)"
+        ]
+      },
+      {
+        "tag": "breathing",
+        "patterns": [
+          "Breathing problems",
+          "Inhalation injuries",
+          "Breathing emergencies",
+          "Choking",
+          "Hypoxia",
+          "Ineffective breathing"
+        ],
+        "responses": [
+          "Breathing emergencies caused by illnesses include asthma, allergies, COPD, congestive heart failure, and stroke. Severe allergic reactions can lead to anaphylaxis, which is an allergic reaction to a foreign object that entered the body. Choking occurs when something is blocking the airway passage. First aid for choking depends on the air exchange and if the casualty is conscious or not. For larger people and disabled people in wheelchairs, the procedure is slightly different. If the casualty is an infant, the procedure is slightly different as well. Hypoxia is the lack of oxygen in the bloodstream due to choking or other airway issues. Effective and ineffective breathing can be recognized by the breathing rhythms and intervals between breaths. Inhalation injuries occur when the casualty inhales hot steam, smoke, or poisonous chemicals. (https://docs.google.com/document/d/15a-WWYbZIUt8pbOXvR8CsExY5CMJjbwTI36laIzt49A/edit?usp=sharing)",
+          "Ineffective breathing can be recognized by breathing intervals and rhythms. Inhaling hot steam/smoke can lead to inhalation injuries. Breathing emergencies are usually results of illnesses such as asthma, stroke, allergies, or COPD. Choking occurs when something is blocking airway passage and there is trouble breathing or not possibility at all. For first aid techniques check link as well. (https://docs.google.com/document/d/15a-WWYbZIUt8pbOXvR8CsExY5CMJjbwTI36laIzt49A/edit?usp=sharing)"
+        ]
+      },
+      {
+        "tag": "bandages",
+        "patterns": [
+          "Bandages",
+          "Band Aid",
+          "Slings",
+          "Dressings"
+        ],
+        "responses": [
+          "Dressings are sterile covers for wounds to control bleeding and absorb the blood and prevent contamination. Bandages hold dressings in place, maintain pressure, and support areas of injury. Slings can be scarves, belts, neckties or other common cloths that can wrap around the neck and used to support the arm. (https://docs.google.com/document/d/19JmRV_7V1bRDgUnMgs-C3xBGTVr9iDd4kB95eI4ji20/edit?usp=sharing)",
+          "Chapter 5: Dressings are sterile covers for wounds to control bleeding and absorb the blood and prevent contamination. Bandages hold dressings in place, maintain pressure, and support areas of injury. Slings can be scarves, belts, neckties or other common cloths that can wrap around the neck and used to support the arm. (https://docs.google.com/document/d/19JmRV_7V1bRDgUnMgs-C3xBGTVr9iDd4kB95eI4ji20/edit?usp=sharing)"
+        ]
+      },
+      {
+        "tag": "wounds",
+        "patterns": [
+          "Wounds",
+          "Bleeding",
+          "Internal bleeding",
+          "Amputations"
+        ],
+        "responses": [
+          "Wounds are damages to tissues in the body, causing blood to escape. The goal is to stop the bleeding quickly and prevent infection. Bleeding occurs when blood escapes from blood vessels. Sometimes it escapes the body from a surface wound or sometimes just a tissue if internal bleeding. Amputations happen when a part of the body has been partly or completely cut off. Bleeding must be controlled and medical help should be called. (https://docs.google.com/document/d/19JmRV_7V1bRDgUnMgs-C3xBGTVr9iDd4kB95eI4ji20/edit#heading=h.m2edsp4wula8)",
+          "Chapter 5: Wounds are damages to tissues in the body, causing blood to escape. The goal is to stop the bleeding quickly and prevent infection. Bleeding occurs when blood escapes from blood vessels. Sometimes it escapes the body from a surface wound or sometimes just a tissue if internal bleeding. Amputations happen when a part of the body has been partly or completely cut off. Bleeding must be controlled and medical help should be called. (https://docs.google.com/document/d/19JmRV_7V1bRDgUnMgs-C3xBGTVr9iDd4kB95eI4ji20/edit#heading=h.m2edsp4wula8)"
+        ]
+      },
+      {
+        "tag": "head-and-sprains",
+        "patterns": [
+          "Head injury",
+          "Sprain",
+          "RICE",
+          "Fracture",
+          "Spinal injury",
+          "Concussion"
+        ],
+        "responses": [
+          "Fractures are cracks in a bone that can be either closed or open. Sprains are stretched or fully torn ligaments, while dislocations occur when bone ends move out of place. Head injuries include skull fractures and concussions, which are usually related to spinal injuries. Spinal injuries threaten the spinal cord and damage to nerves, which could result in paralysis. General first aid for bones and joints require splinting, such as soft padding, bandages, and tape. (https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit?usp=sharing, RICE: https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit#bookmark=id.ci27aaiowcs8)",
+          "Chapter 6: Fractures are cracks in a bone that can be either closed or open. Sprains are stretched or fully torn ligaments, while dislocations occur when bone ends move out of place. The acronym, RICE, should be recalled. Head injuries include skull fractures and concussions, which are usually related to spinal injuries. Spinal injuries threaten the spinal cord and damage to nerves, which could result in paralysis. General first aid for bones and joints require splinting, such as soft padding, bandages, and tape. (https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit?usp=sharing RICE: https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit#bookmark=id.ci27aaiowcs8)"
+        ]
+      },
+      {
+        "tag": "chest-and-pelvic",
+        "patterns": [
+          "Chest injury",
+          "Pelvic injury",
+          "Immobolize",
+          "Joint injuries"
+        ],
+        "responses": [
+          "Pelvic injuries, chest injuries, flail chest, and pneumothorax require immediate first aid. Signs and symptoms of each include severe pain in the expected area, difficulty standing or walking (pelvic), tenderness or swelling in the expected region, and deformity or instability. Specifically immobolization methods can be found with the link. (https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit#heading=h.2mbpo8nur5np, Immobolization: https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit#heading=h.iwe77a2gwng4)",
+          "Chapter 6: Pelvic injuries, chest injuries, flail chest, and pneumothorax require immediate first aid. Signs and symptoms of each include severe pain in the expected area, difficulty standing or walking (pelvic), tenderness or swelling in the expected region, and deformity or instability. Specifically immobolization methods can be found with the link. (https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit#heading=h.2mbpo8nur5np, Immobolization: https://docs.google.com/document/d/1yebng5D8xYXQmHtsRtzTJ9TNDROZJDp3SO-JuYV69-E/edit#heading=h.iwe77a2gwng4)"
+        ]
+      },
+      {
+        "tag": "age",
+        "patterns": [
+          "Age categories",
+          "Ages",
+          "Child",
+          "Adult",
+          "Infant"
+        ],
+        "responses": [
+          "The age categories are essential to know as they affect legality, first aid maneuvers, and other important factors. The age categories are: \n Adult: During and after puberty \n Child: 1 y/o to puberty based on sex \n Infant: Under 1y/o Newborn: First hours of birth (https://docs.google.com/document/d/11a7V7IUKlrWKX13wnuDg5CVCyFu2521LfYTLlGMLbJw/edit?usp=sharing)",
+          "The age categories are essential to know as they affect legality, first aid maneuvers, and other important factors. The age categories are: \n Adult: During and after puberty \n Child: 1 y/o to puberty based on sex \n Infant: Under 1y/o Newborn: First hours of birth (https://docs.google.com/document/d/11a7V7IUKlrWKX13wnuDg5CVCyFu2521LfYTLlGMLbJw/edit?usp=sharing)"
+        ]
+      },
+      {
+        "tag": "ar",
+        "patterns": [
+          "Artificial respiration",
+          "AR",
+          "Materials for AR",
+          "No breathing"
+        ],
+        "responses": [
+          "When there is no breathing but still a pulse, start artificial respiration. If no pulse, do CPR. AR uses mouth-to-mask with supplemental oxygen, two-person bag valve mask, and other methods. Gastric distension, which is bloating in the stomach, should be avoided during artificial respiration. (https://docs.google.com/document/d/11a7V7IUKlrWKX13wnuDg5CVCyFu2521LfYTLlGMLbJw/edit#heading=h.pch3rynccvkx)",
+          "Chapter 8: When there is no breathing but still a pulse, start artificial respiration. If no pulse, do CPR. AR uses mouth-to-mask with supplemental oxygen, two-person bag valve mask, and other methods. Gastric distension, which is bloating in the stomach, should be avoided during artificial respiration. (https://docs.google.com/document/d/11a7V7IUKlrWKX13wnuDg5CVCyFu2521LfYTLlGMLbJw/edit#heading=h.pch3rynccvkx)"
+        ]
+      },
+      {
+        "tag": "cpr",
+        "patterns": [
+          "CPR",
+          "Cardiopulmonary Resucitation",
+          "What is cpr?",
+          "How to perform cpr?",
+          "No pulse"
+        ],
+        "responses": [
+          "Cardiopulmonary resuscitation (CPR) is provided when there is no sign of pulse or breathing. Compression rates are between 100 and 120 per minute for adults, children, and infants. Defibrillation is used for adult, child, and infant cases. The team approach is the optimal situation for resuscitation efforts, as it allows one rescuer to manage airway control and ventilations, the second to begin compressions, and the third to use the AED. (https://docs.google.com/document/d/11a7V7IUKlrWKX13wnuDg5CVCyFu2521LfYTLlGMLbJw/edit#heading=h.uckepdkh4439)",
+          "Chapter 8: Cardiopulmonary resuscitation (CPR) is provided when there is no sign of pulse or breathing. Compression rates are between 100 and 120 per minute for adults, children, and infants. Defibrillation is used for adult, child, and infant cases. The team approach is the optimal situation for resuscitation efforts, as it allows one rescuer to manage airway control and ventilations, the second to begin compressions, and the third to use the AED. (https://docs.google.com/document/d/11a7V7IUKlrWKX13wnuDg5CVCyFu2521LfYTLlGMLbJw/edit#heading=h.uckepdkh4439)"
+        ]
+      },
+      {
+        "tag": "first-aid",
+        "patterns": [
+          "What is first aid?",
+          "First aid",
+          "General rules",
+          "Glossary"
+        ],
+        "responses": [
+          "First aid is the immediate medical assistance given to a person who has been injured or suddenly taken ill. It aims to preserve life, prevent further injury, and promote recovery. Basic first aid skills include assessing the scene for safety, calling for emergency services, performing CPR and rescue breathing, controlling bleeding, treating burns and shock, and administering medications such as epinephrine in case of anaphylaxis. It is important to seek professional medical care as soon as possible after administering first aid. Glossary: \n Casualty: a person who has been injured, killed, or is otherwise unable to function normally. \n Abrasion: a wound caused by scraping or rubbing of the skin. \n Bandage: a strip of cloth or other material used to cover a wound or hold a dressing in place. \n Cardiopulmonary resuscitation (CPR): a lifesaving technique used to restore breathing and circulation in a person who has suffered cardiac arrest or respiratory failure. \n Defibrillator: a device that delivers an electric shock to the heart to restore its normal rhythm in cases of cardiac arrest. \n Splint: a device used to immobilize and protect an injured limb or joint. \n Triangular bandage: a triangular-shaped piece of cloth used for immobilizing an injured arm, creating a sling, or as a makeshift bandage. \n Wound: an injury to the body's tissue, caused by physical trauma or other factors such as infection or disease.",
+          "First aid is the immediate medical assistance given to a person who has been injured or suddenly taken ill. It aims to preserve life, prevent further injury, and promote recovery. Basic first aid skills include assessing the scene for safety, calling for emergency services, performing CPR and rescue breathing, controlling bleeding, treating burns and shock, and administering medications such as epinephrine in case of anaphylaxis. It is important to seek professional medical care as soon as possible after administering first aid. Glossary: \n Casualty: a person who has been injured, killed, or is otherwise unable to function normally. \n Abrasion: a wound caused by scraping or rubbing of the skin. \n Bandage: a strip of cloth or other material used to cover a wound or hold a dressing in place. \n Cardiopulmonary resuscitation (CPR): a lifesaving technique used to restore breathing and circulation in a person who has suffered cardiac arrest or respiratory failure. \n Defibrillator: a device that delivers an electric shock to the heart to restore its normal rhythm in cases of cardiac arrest. \n Splint: a device used to immobilize and protect an injured limb or joint. \n Triangular bandage: a triangular-shaped piece of cloth used for immobilizing an injured arm, creating a sling, or as a makeshift bandage. \n Wound: an injury to the body's tissue, caused by physical trauma or other factors such as infection or disease."
+        ]
+      }
+    ]
+  }
