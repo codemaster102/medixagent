@@ -1,4 +1,4 @@
-# medixagent
+# MedixAgent
 Artificial Intelligence chatbot using Machine Learning.
 
 This is a simple AI chatbot application developed using the Natural Language Toolkit (NLTK) library and the Tkinter GUI toolkit. The chatbot is designed to have conversations with users in natural language and respond to their queries about First Aid. I am using this as my final project for the Duke of Edinburgh Bronze Award. The AI has access to all my notes and information I have learned and collected.
